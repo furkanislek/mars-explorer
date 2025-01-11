@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 export default function MissionData() {
-  const [activeTab, setActiveTab] = useState("spaceStation");
+  const [activeTab, setActiveTab] = useState("whymars");
 
   const renderTabContent = () => {
     switch (activeTab) {
@@ -152,9 +152,9 @@ export default function MissionData() {
         return <p className="text-gray-700">Select a tab to see details.</p>;
     }
   };
-
+  //py-0 md:py-1 xl:pt-8  2xl:pt-12  px-0 lg:px-[1%] xl:px-[10%]
   return (
-    <div className="py-0 md:py-1 xl:pt-8  2xl:pt-16  px-[5%] lg:px-[2%] xl:px-[6%] flex justify-between ">
+    <div className="py-0 md:py-1 xl:pt-8  2xl:pt-16  px-[5%] lg:px-[2%] xl:px-[10%] flex justify-between ">
       <div className="max-w-full mx-auto pr-4 ">
         <h1 className="text-3xl font-bold text-orange-500 mb-6">
           Mission data

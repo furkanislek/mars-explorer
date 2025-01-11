@@ -19,7 +19,7 @@ const DaysBanner = () => {
         <h1 className="md:text-[1.5rem] xl:text-[2.2rem] 2xl:text-[rem] text-[3rem] font-bold font-mono">
           To Mars and back
         </h1>
-        <h4 className="text-xl xl:text-[1.5rem] 2xl:text-[2rem] w-[80%] font-mono">
+        <h4 className="text-xl xl:text-[1.5rem] 2xl:text-[2rem] w-[80%] font-mono xl:leading-loose">
           Together the Starship spacecraft and Super Heavy rocket create a
           reusable transportation system capable of on orbit refueling and
           leveraging Mars’ natural H2O and CO2 resources to refuel on the

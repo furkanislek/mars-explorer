@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Banner = () => {
   return (
-    <div className="py-0 md:py-1 xl:pt-8 2xl:pt-16 px-0 lg:px-[1%] xl:px-[6%] -z-10">
+    <div className="py-0 md:py-1 xl:pt-8  2xl:pt-12  px-0 lg:px-[1%] xl:px-[10%] -z-10">
       <div className="hidden lg:block relative -bottom-20 ">
         <Image
           src="/banner-bg.svg"
